@@ -5,10 +5,77 @@
 body {
   background-color: lilac;
 }
+ol {
+    line-break: loose;
+    letter-spacing: 3px;
+}
+
+.navbar {
+    position:fixed;
+    width:100%;
+    z-index:1;
+    background-color: white; 
+    height: 55px;
+    box-shadow: 0 8px 6px -6px #D3D3D3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 8%;
+}
+
+#innerNavLeft {    
+    width: 100%;
+    display: flex;
+    align-items: left;
+    justify-content: left;
+    column-gap: 8%;
+    padding: 2%;
+}
+
+
+#innerNavRight{
+    width: 100%;
+    display: flex;
+    align-items: right;
+    justify-content: right;
+    column-gap: 8%;
+    padding: 2%;
+}
+
+.navlinks{
+    margin: 0;
+}
+
+.navlinks :hover{
+    background-color: beige;
+}
+a {
+    text-decoration: none;
+    color: black;
+}  
+
 </style>
 </head>
 <body>
+ <!-- Navbar -->
+    <div class="navbar">
+        <div id="innerNavLeft">
+            <p> <a href="#home" id="RamLink">Ramanujan Yuva Chapter</a></p>
+        </div>
+        
+        <div id="innerNavRight">
+            <p class="navlinks"><a href="About.html">About</a></p>
+            <p class="navlinks"><a href="Events.html">Events</a></p>
+            <p class="navlinks"><a href="Contacts.html">Contact</a></p>
+            <p class="navlinks"><a href="https://instagram.com/cii_yi_ramanujan?igshid=MDM4ZDc5MmU=">Instagram</a></p>
+            <p class="navlinks"><a href="https://m.facebook.com/100064192922302/about/">Facebook</a></p>
 
+        </div>
+
+    
+
+
+    </div>
 <h1 style="background-color:dodgerblue;">EVENTS</h1>
 
 <p style="background-color:Red;">
