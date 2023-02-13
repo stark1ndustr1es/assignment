@@ -10,6 +10,55 @@
 body {
   background-color: red;
 }
+
+ol {
+    line-break: loose;
+    letter-spacing: 3px;
+}
+
+.navbar {
+    position:fixed;
+    width:100%;
+    z-index:1;
+    background-color: white; 
+    height: 55px;
+    box-shadow: 0 8px 6px -6px #D3D3D3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 8%;
+}
+
+#innerNavLeft {    
+    width: 100%;
+    display: flex;
+    align-items: left;
+    justify-content: left;
+    column-gap: 8%;
+    padding: 2%;
+}
+
+
+#innerNavRight{
+    width: 100%;
+    display: flex;
+    align-items: right;
+    justify-content: right;
+    column-gap: 8%;
+    padding: 2%;
+}
+
+.navlinks{
+    margin: 0;
+}
+
+.navlinks :hover{
+    background-color: beige;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
 </style>
 </head>
 <body>
